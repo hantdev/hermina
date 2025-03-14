@@ -1,2 +1,3 @@
-# hermina
-Hermina: A policy-enforcement multi-protocol proxy
+# Hermina
+
+Customizable IoT API gateway designed to support seamless communication across multiple protocols.
