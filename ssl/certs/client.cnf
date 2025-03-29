@@ -1,0 +1,15 @@
+[req]
+req_extensions = v3_req
+distinguished_name = dn
+prompt = no
+[dn]
+CN = client_revoked
+C  = VN
+ST = Hanoi
+L  = Hanoi
+O  = MITRAS
+OU = MITRAS
+[v3_req]
+basicConstraints = CA:FALSE
+keyUsage = nonRepudiation, digitalSignature, keyEncipherment
+subjectAltName = DNS:client_revoked
